@@ -1,0 +1,117 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  width: 90%;
+  max-width: 550px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 45px;
+  margin-bottom: 12px;
+}
+.comments-img {
+  width: 280px;
+  height: 200px;
+}
+.comments-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-elements {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.name {
+  height: 40px;
+  margin-bottom: 12px;
+}
+.input {
+  font-size: 16px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+.add-button {
+  background-color: #0284c7;
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  align-self: flex-start;
+  margin-top: 16px;
+  min-width: 60px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  background-color: #94a3b8;
+  margin-top: 16px;
+}
+.comments-count {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.count {
+  background-color: #0284c7;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px 4px 8px;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+.comments-list {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-top: 0;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    margin-top: 96px;
+  }
+  .app-container {
+    width: 80%;
+    max-width: 1140px;
+  }
+  .comments-inputs {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .comments-img {
+    width: 380px;
+    height: 300px;
+    order: 1;
+  }
+  .heading {
+    font-size: 56px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+  .input-elements {
+    width: 28%;
+    min-width: 300px;
+  }
+}
