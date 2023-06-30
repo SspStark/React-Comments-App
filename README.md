@@ -1,4 +1,4 @@
-In this project, let's build a **Comments App** by applying the concepts we have learned till now.
+# [Comments App](https://996commentsapp.ccbp.tech/)
 
 ### Refer to the image below:
 
